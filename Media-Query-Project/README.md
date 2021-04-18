@@ -1,4 +1,4 @@
-# Image-Hosting
+# Image-Hosting :
 
 ## To download just 1 single folder,
    * go to the desired folder, 
