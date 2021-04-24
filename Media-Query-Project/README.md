@@ -11,7 +11,7 @@
 
 # Project Part of This Video 
 
-https://img.youtube.com/vi/HY8q4TD3KGM/maxresdefault.jpg
+https://youtu.be/HY8q4TD3KGM
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HY8q4TD3KGM/maxresdefault.jpg
 )](https://youtu.be/HY8q4TD3KGM)
