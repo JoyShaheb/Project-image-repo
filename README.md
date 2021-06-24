@@ -1,5 +1,8 @@
 # Image-Hosting
 
+This Repository contains project images to work with for learners.
+Belongs to [Joy Shaheb YouTube Channel](https://www.youtube.com/c/JoyShaheb)  
+
 ## To download just 1 single folder,
    * go to the desired folder, 
    * copy the url, 
