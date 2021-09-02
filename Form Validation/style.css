@@ -112,6 +112,7 @@ input:focus {
   border: 2px solid #c4c4c4;
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .btn-2 {
