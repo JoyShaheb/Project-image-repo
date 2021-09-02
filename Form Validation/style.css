@@ -12,12 +12,50 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/**
+* ! style rules for content section
+**/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f2796e;
+  width: 55%;
+  min-height: 100vh;
+  padding: 10px 20px;
+}
+
+.image {
+  background-image: url("./images/illustration.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* border: 2px solid black; */
+  height: 65%;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
 /**
 * ! style rules for form section
 **/
 
 form {
-  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  /* max-width: 400px; */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 50px;
 }
@@ -148,3 +186,27 @@ button:hover {
 /**
 * ! Media Queries are here
 **/
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  form,
+  .content {
+    width: 100%;
+  }
+
+  .btn {
+    flex-direction: column;
+  }
+  .image {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 425px) {
+  form {
+    padding: 20px;
+  }
+}
